@@ -13,6 +13,7 @@ export class BankAccount {
         this.client = new Client("", "");
     }
 
+    // Este método possui assin
     //aceita o parâmetro value e retorna nada
     deposit(value: number): void {
         if (value > 0){
